@@ -35,7 +35,9 @@ input[type="submit"]:hover {
   box-shadow: none;
 }
 
-input[type="submit"]:active {
-  color: white;
-  transition: 0.3s;
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
 }
