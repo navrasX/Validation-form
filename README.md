@@ -1,4 +1,4 @@
-# payment-practice
+# Singup/Log in - Practice
 
 I'm learning Javascript and getting into Web Development.
 
