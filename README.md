@@ -27,6 +27,7 @@ This said, my next approach is to make something "useful" first, then I will pla
 
 -----------Validation completed----------------
 
-Thought it says completed, it actually needs improvements on email validations which can be done through a simple function.
+Thought it says completed, it actually needs improvements on email validations (and the other validations overall) which can be done through a simple function.
+I realized  could've wrote the code a little bit better by using better functions and kinda simplifying the code as I saw on other projects that tried to accomplish the same as me.
 On the other hand, the goal of the exercise was kind of accomplished and I moving on to the next exercise which should
 let me practice the stuff that I learned through this process while also learning new stuff if possible.
