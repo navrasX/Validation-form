@@ -1,4 +1,4 @@
-# Form validation- Practice
+# Form validation- Exercise
 
 I'm  learning Javascript and getting into Web Development.
 
