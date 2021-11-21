@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.671);
 }
 #second-background {
   padding: 5%;
@@ -8,8 +9,8 @@ body {
   flex-direction: column;
 }
 
-.data {
-  font-weight: bold;
+.header {
+  font-size: large;
 }
 
 input {
@@ -22,22 +23,30 @@ input {
 input::placeholder {
   color: rgba(0, 0, 0, 0.397);
 }
-input[type="submit"] {
-  font-weight: bold;
+.login-btny {
+  margin: auto;
+  margin-top: 0.5rem;
+  width: 50%;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.671);
   border: none;
-  background-color: orange;
-  box-shadow: 0px 2px 10px #666;
+  background-color: rgba(255, 166, 0, 0.767);
 }
 
 input[type="submit"]:hover {
   color: white;
-  transition: 0.3s;
-  box-shadow: none;
+  box-shadow: 0px 0px 3px #666;
+  transition: 0.1s;
+  background-color: rgb(97, 167, 28);
 }
 
-.red {
-  background-color: red;
+.redBtn {
+  background-color: rgba(255, 0, 0, 0.692);
+  color: white;
 }
-.green {
-  background-color: green;
+
+.error {
+  color: rgba(255, 0, 0, 0.692);
+  font-weight: 600;
+  font-size: small;
 }

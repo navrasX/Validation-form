@@ -4,28 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kirment - Gestión de cobros</title>
+    <title>Kirment - Inicio de sesión</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="background-color: white">
-    <section class="1">
-      <form id="second-background">
-        <p class="data">Introducir datos</p>
-        <input type="text" placeholder="Nombre" id="namey" />
-        <input type="text" placeholder="Apellido" id="surnamey" />
-        <input type="text" placeholder="E-mail" id="emaily" />
-        <input type="text" placeholder="Código" id="codey" />
-        <input type="submit" value="Log in" class="login-btny" />
-      </form>
-    </section>
-    <section class="2">
-      <div class="parrafo"></div>
-      <div class="terms"></div>
-    </section>
-    <section class="3">
-      <div class="terms"></div>
-      <div class="parrafo"></div>
-    </section>
+  <body>
+    <form id="second-background" autocomplete="off">
+      <p class="header">Introducir datos</p>
+
+      <input type="text" placeholder="Nombre" id="namey" />
+      <label for="namey" class="nameyMessageError"></label>
+
+      <input type="text" placeholder="Apellido" id="surnamey" />
+      <label for="surnamey" class="surnameyMessageError"></label>
+
+      <input type="text" placeholder="E-mail" id="emaily" />
+      <label for="emaily" class="emailyMessageError"></label>
+
+      <input type="text" placeholder="Código" id="codey" />
+      <label for="codey" class="codeyMessageError"></label>
+
+      <input type="submit" value="Confirm" class="login-btny" />
+    </form>
+
     <script src="app.js"></script>
   </body>
 </html>
